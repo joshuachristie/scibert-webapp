@@ -1,3 +1,5 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+
 aiofiles==0.7.0
 asgiref==3.4.1
 blis==0.7.4
@@ -7,9 +9,10 @@ charset-normalizer==2.0.6
 click==7.1.2
 conllu==4.4.1
 cymem==2.0.5
-en-core-sci-scibert @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_core_sci_scibert-0.4.0.tar.gz
+en-core-sci-sm @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_core_sci_sm-0.4.0.tar.gz
 fastapi==0.68.1
 filelock==3.0.12
+gunicorn==20.1.0
 h11==0.12.0
 huggingface-hub==0.0.12
 idna==3.2
@@ -22,6 +25,7 @@ nmslib==2.1.1
 numpy==1.21.2
 packaging==21.0
 pathy==0.6.0
+Pillow==8.3.2
 preshed==3.0.5
 psutil==5.8.0
 pybind11==2.6.1
@@ -47,7 +51,9 @@ starlette==0.14.2
 thinc==8.0.10
 threadpoolctl==2.2.0
 tokenizers==0.10.3
-torch==1.9.1
+torch==1.9.1+cpu
+torchaudio==0.9.1
+torchvision==0.10.1+cpu
 tqdm==4.62.3
 transformers==4.9.2
 typer==0.3.2

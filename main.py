@@ -7,7 +7,7 @@ import spacy
 from process_sentence import render
 
 
-nlp = spacy.load("en_core_sci_scibert")
+nlp = spacy.load("en_core_sci_sm")
 templates = Jinja2Templates(directory="templates")
 
 app = FastAPI()
