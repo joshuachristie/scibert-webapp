@@ -28,6 +28,7 @@ pybind11==2.6.1
 pydantic==1.8.2
 pyparsing==2.4.7
 pysbd==0.3.4
+python-multipart==0.0.5
 PyYAML==5.4.1
 regex==2021.8.28
 requests==2.26.0
